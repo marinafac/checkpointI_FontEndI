@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+body{
+    width: 1440px;
+    height: 2100px;
+    font-family: 'Lato', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+.brasao{
+    position:absolute;
+    z-index: 200;
+    left:143px;
+    top:44px;
+}
+
+.menu{
+height: 139px;
+background-color:#0AA1DE;
+font-size: 16px;
+position: relative;
+left: 0px;
+top: 0px;
+}
+
+button{
+    background-color:white;
+    position: relative;
+    left:600px;
+    top:54px;
+    margin: 15px;
+    padding:11px 29px;
+    z-index: 100;
+    border-style: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#009040;
+    color:white;
+}
+
+
+header{
+    height: 430px;
+    background-image: url("imagens/araucarias.png");
+    padding: 10px;
+    position: center;
+    left: 0px;
+    top: 0px;
+    }
+
+    h1{
+    background-color: rgba(0, 0, 0, 0.486);
+    font-size: 105px;
+    font-family: 'Berkshire Swash', cursive, Arial, Helvetica, sans-serif;
+    color:white;
+    position: relative;
+    left:360px;
+    top:80px;
+    }
+
+    p{
+        padding: 0;
+        margin: 0;
+    }
+    .sobre1{
+        width: 520px;
+        height: 330px;
+        padding: 10px;
+        margin: 10px,10px,30px,10px;
+        box-sizing: border-box;
+        font-size:14px;
+        color: black;
+        position: relative;
+        left: 72px;
+        top: 20px;
+    }
+ 
+    .sobre2{
+        width: 520px;
+        height: 330px;
+        padding: 10px;
+        margin: 10px,10px,30px,10px;
+        font-size:14px;
+        color: black;
+        position: absolute;
+        left: 700px;
+        top: 635px;
+      
+    }
+
+    .oquefazer{
+        height: 424px;
+        background-color:#0AA1DE;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        top:20px;
+    }
+
+    .titulo{
+        font-size: 28px;
+        color: white;
+        margin: 10px;
+        padding:2px;
+        box-sizing: border-box;
+        position:relative;
+        left: 40px;
+    }
+
+    h4{
+        font-size:72px;
+        padding:0;
+        margin: 0;
+    }
+
+    .primeiro{
+        width: 187px;
+        height: 143px;
+        color: white;
+        padding:0;
+        margin: 0;
+        position: relative;
+        left: 70px;
+        top: 20px;
+        z-index: 130;
+    }
+
+    .segundo{
+        width: 187px;
+        height: 143px;
+        color: white;
+        padding:0;
+        margin: 0;
+        position: relative;
+        left: 327px;
+        top: -123px;
+        z-index: 130;
+    }
+
+    .terceiro{
+        width: 187px;
+        height: 143px;
+        color: white;
+        padding:0;
+        margin: 0;
+        position: relative;
+        left: 584px;
+        top: -266px;
+        z-index: 130;
+    }
+
+    .quarto{
+        width: 187px;
+        height: 143px;
+        color: white;
+        padding:0;
+        margin: 0;
+        position: relative;
+        left: 841px;
+        top: -409px;
+        z-index: 130;
+    }
+
+    .quinto{
+        width: 187px;
+        height: 143px;
+        color: white;
+        padding:0;
+        margin: 0;
+        position: relative;
+        left: 1098px;
+        top: -552px;
+        z-index: 130;
+    }
+
+    .titulo2{
+    font-size: 24px;
+    }
+
+    .curiosidades{
+        color: black;
+        font-size: 18px;
+        position:relative;
+        top: 20px;
+        left: 400px;
+    }
+
+    .video{ 
+    margin: 30px;
+    position:relative;
+    top: 30px;
+    left: 40px;
+    }
+
+    .rodape{
+        height: 170px;
+        margin: 60px;
+        background-color:#0AA1DE;
+        position: relative;
+        bottom: 0;
+    }
+
+    .textorodape{
+        width:344px;
+        height: 71px;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        position: relative;
+        left: 70px;
+        top: 30px;
+    }
+
+    .saibamais{
+        family: 'Lato', sans-serif, Arial, Helvetica, sans-serif;
+        color: white;
+        padding: 10px;
+        margin: 10px;
+        position: relative;
+        left: 710px;
+        top: -71px;
+    }
+
+    .links{
+    position:relative;
+    left: 740px;
+    top: -82px;
+    z-index: 200;
+    }
